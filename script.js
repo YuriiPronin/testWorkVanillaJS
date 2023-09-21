@@ -1,6 +1,6 @@
 
 if (!window.location.search.includes('a=') && !window.location.search.includes('b=')) {
-  window.location = 'https://test-work-vanilla-js.vercel.app//index?a=1&b=2';
+  window.location = '/index?a=1&b=2';
 }
 
 function handleSubmit(event) {
