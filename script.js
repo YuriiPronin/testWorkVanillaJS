@@ -1,7 +1,7 @@
 
-if (!window.location.search.includes('a=') && !window.location.search.includes('b=')) {
-  window.location = '/index?a=1&b=2';
-}
+// if (!window.location.search.includes('a=') && !window.location.search.includes('b=')) {
+//   window.location = '/index?a=1&b=2';
+// }
 
 function handleSubmit(event) {
   
