@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test work</title>
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<p class="title">Введіть дані</p>
+  <form action="" >
+    <p class="text">Введіть значення <b>a</b></p>
+    <input 
+      type="text" 
+      class="input" 
+      name="a"
+      id="a"
+    />
+    <p class="text">Введіть значення <b>b</b></p>
+    <input 
+      type="text" 
+      class="input" 
+      name="b"
+      id="b"
+    />
+    <button 
+      type="submit" 
+      class="button" 
+      id="submitBtn"
+    >
+      Підтвердити
+    </button>
+  </form>
+
+  <p class="title">Завдання із зірочкою</p>
+  <form action="" id="form-id">
+    <p class="text">Введіть значення <b>a</b></p>
+    <input 
+      type="text" 
+      class="input" 
+      name="a"
+      id="a"
+    >
+    <p class="text">Введіть значення <b>b</b></p>
+    <input 
+      type="text" 
+      class="input" 
+      name="b"
+      id="b"
+    >
+    <a 
+      href="№"
+      type="submit"
+      class="linkLikeButton"
+      id="linkBtn"
+      onclick="document.getElementById('form-id').submit();"
+    >
+      Посилання, а не кнопка
+    </a>
+  </form>
+
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
